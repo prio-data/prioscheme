@@ -1,7 +1,16 @@
 # prioscheme
 PRIO scheme for nicer figures in Stata
 
-## About
+## Overview
+- [Introduction](#introduction)
+- [Usage](#usage)
+  - [Colors](#colors)
+  - [Titles](#titles)
+- [Installation](#installation)
+- [Troubleshooting](#troubleshooting)
+- [Contributions and Improvements](#contributions-and-improvements)
+
+## Introduction
 The default look and feel of graphs made in Stata can sometimes seem a bit outdated, and aren't necessarily the best for use in reports, publications, or presentations. 
 
 Instead, PRIO researchers may use the following 'scheme' to make the graphs look more modern, standardized, and representative of PRIO's visual profile. 
