@@ -16,7 +16,31 @@ All subsequent graphs and figures will use the PRIO scheme by default.
 If the graph commands in your do-file already uses custom-styling (setting colors, sizes, positions, etc),
 these will override the PRIO defaults. 
 
-### When Using Titles
+### Colors
+By default, graphs cycle through a sequence of pre-defined PRIO colors. These colors can also be referred to by name when manually setting colors, with the numbers representing the sequence number:
+
+- `prio1`
+- `prio2`
+- ...
+- `prio11`
+- `prio12`
+
+
+You can also specify PRIO colors by color name, with the numbers representing different shades of the same color:
+
+- `prioblue1`-`6`
+- `priogray1`-`2`
+- `priogreen1`-`2`
+- `prioneon1`-`2`
+- `prioorange1`-`2`
+- `prioyellow1`-`2`
+
+You may also use the PRIO logo colors:
+
+- `priologoblue`
+- `priologogray`
+
+### Titles
 If adding titles to your graphs, due to an as yet unresolved error in the scheme, you must manually add the *bexpand* option:
 
 ```line conflict year, title("Conflict Trends", bexpand)```
